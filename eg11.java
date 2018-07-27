@@ -13,7 +13,7 @@ class Ideone
 		int n,i;
 		Scanner Sc=new Scanner(System.in);
 		n=Sc.nextInt();
-		for(i=1;i<=5;i++)
+		for(i=1;i<6;i++)
 		{
 			System.out.println((n*i)"\t");
 		}
