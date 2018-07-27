@@ -9,19 +9,26 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-int num,i;
+int num,i=2;
 Scanner Sc=new Scanner(System.in);
 num=Sc.nextInt();
-for(i=2;i<num;i++)
+boolean flag=false;
+while(i<=num/2)
 {
 	if(num%i==0)
 	{
-		System.out.println("No");
-		break;
-	}
+	flag=true;
+	break;
 }
-	
-	System.out.println("Yes");	
-	
+		i++;
+	}
+if(!flag)
+{
+System.out.println("Yes");
+}
+else
+{
+System.out.println("No");
+}
 }
 }
