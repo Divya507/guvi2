@@ -14,7 +14,7 @@ class Ideone
 		Scanner Sc=new Scanner(System.in);
 		s=Sc.nextInt();
 		e=Sc.nextInt();
-		for(i=s;i<e;i++)
+		for(i=s+1;i<e;i++)
 		{
 			if(i%2==0)
 			{
