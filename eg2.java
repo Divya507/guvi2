@@ -10,13 +10,13 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		String str="hello";
+		String str="Hello";
 		int n,i;
 		Scanner Sc=new Scanner(System.in);
 		n=Sc.nextInt();
 		for(i=1;i<=n;i++)
 		{
-			System.out.println(str);
+			System.out.println(str+"\n");
 		}
 	}
 }
