@@ -15,7 +15,7 @@ class Ideone
 		n=Sc.nextInt();
 		for(i=1;i<6;i++)
 		{
-			System.out.println((n*i)"\t");
+			System.out.println((n*i)+"\t");
 		}
 	}
 }
